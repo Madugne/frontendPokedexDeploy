@@ -1,0 +1,21 @@
+<body>
+    <div class="container text-center text-white">
+        <h1 class="profilo">This is your profile!</h1>
+        <hr />
+        <div *ngIf="showDiv" class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-6">
+                <div class="pokeball">
+                    <img routerLink="/profile/favorites" style="cursor: pointer;"
+                        src="https://upload.wikimedia.org/wikipedia/commons/5/51/Pokebola-pokeball-png-0.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="trainers" routerLink="/profile/details" style="cursor: pointer;">
+                    <img src="https://res.cloudinary.com/dwpmaens0/image/upload/v1716382198/kindpng_4143854_sha6uc.png"
+                        alt="Transparent Pokemon Trainer Red Png - Pokemon Trainer Red And Leaf, Png Download@kindpng.com">
+                </div>
+            </div>
+        </div>
+        <router-outlet></router-outlet>
+    </div>
+</body>

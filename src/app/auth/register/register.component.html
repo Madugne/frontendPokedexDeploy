@@ -1,0 +1,19 @@
+<body>
+    <div class="container col-3 p-5">
+        <form class="background-overlay text-white" #form="ngForm" (ngSubmit)="registra(form)">
+            <div class="form-group">
+                <label for="nome">Name</label>
+                <input type="text" name="name" id="name" class="form-control" required ngModel>
+                <label for="nome">Lastname</label>
+                <input type="text" name="surname" id="surname" class="form-control" required ngModel>
+                <label for="nome">Username</label>
+                <input type="text" name="username" id="username" class="form-control" required ngModel>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" required ngModel>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="form-control" required ngModel>
+            </div>
+            <button type="submit" [disabled]="form.invalid" class="btn btn-secondary mt-3">Register</button>
+        </form>
+    </div>
+</body>

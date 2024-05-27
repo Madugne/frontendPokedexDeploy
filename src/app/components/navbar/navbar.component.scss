@@ -1,0 +1,39 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.github,
+.linkedin,
+.pokedex {
+    transition: transform 0.3s ease;
+}
+
+.github:hover,
+.linkedin:hover,
+.pokedex:hover {
+    transform: scale(1.3);
+}
+
+@media screen and (max-width: 991px){
+    .github,
+    .linkedin,
+    .pokedex {
+        display: inline-block !important;
+    }
+}
+
+@media screen and (max-width: 766px){
+    .github,
+    .linkedin,
+    .pokedex {
+        display: inline-block !important;
+    }
+}
+
+@media screen and (max-width: 462px){
+    .github,
+    .linkedin,
+    .pokedex {
+        display: inline-block !important;
+    }
+}

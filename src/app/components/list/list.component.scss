@@ -1,0 +1,45 @@
+body {
+    background-image: url('https://wallpapers.com/images/hd/basic-red-pokeball-bwdp5mcaly84lo1u.jpg');
+    min-height: 100vh;
+}
+.imgPokemon {
+    margin: auto;
+}
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.5);
+  }
+
+.pokedex {
+    padding-top: 3%;
+}
+
+.freccia {
+    transition: transform 0.3s ease;
+}
+
+.freccia:hover {
+    transform: scale(1.3);
+}
+
+@media screen and (max-width: 991px){
+    .contents {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 766px){
+    .contents {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 462px){
+    .contents {
+        margin-top: 35%;
+    }
+}

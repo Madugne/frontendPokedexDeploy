@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://wallpapers.com/images/hd/basic-red-pokeball-bwdp5mcaly84lo1u.jpg');
+    min-height: 100vh;
+  }
+.profilo {
+    padding-top: 7%;
+}
+
+.pokeball img,
+.trainers img {
+    width: 50%;
+    transition: transform 0.3s ease;
+}
+
+.pokeball img:hover,
+.trainers img:hover {
+    transform: scale(1.2);
+}
+
+.row {
+    margin-top: 15%;
+}
+
+@media screen and (max-width: 991px){
+    .container {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 766px){
+    .container {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 462px){
+    .container {
+        margin-top: 35%;
+    }
+}

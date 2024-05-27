@@ -1,0 +1,13 @@
+<body>
+    <div class="container col-3 p-5">
+        <form class="background-overlay" #form="ngForm" (ngSubmit)="accedi(form)">
+            <div class="form-group text-white">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-control" required ngModel>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" class="form-control" required ngModel>
+            </div>
+            <button type="submit" class="btn btn-danger mt-3" [disabled]="form.invalid">Log in</button>
+        </form>
+    </div>
+</body>

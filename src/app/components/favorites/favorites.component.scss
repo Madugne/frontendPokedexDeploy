@@ -1,0 +1,25 @@
+.card {
+    background-image: url('https://res.cloudinary.com/dwpmaens0/image/upload/v1716562346/Box_Pokemon_Center_BDSP_ziqwhy.png');
+    background-size: 103%;
+    background-position: center;
+  }
+
+.card-fav {
+    background-color: rgba(255, 255, 255, 0.237);
+    padding: 5%;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.306);
+}
+
+h3 {
+    color: black;
+}
+.imgPokemon {
+    width: 50%;
+}
+
+.btn-hover-red:hover {
+    background-color: rgb(228, 50, 50) !important;
+    color: white !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
