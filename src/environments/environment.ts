@@ -4,7 +4,7 @@
 
 export const environment = {
     production: false,
-    baseURL: 'http://localhost:3001/',
+    baseURL: 'https://pokedexfullstack-madugne-a1d7572f.koyeb.app/',
     apiUrl: 'https://pokeapi.co/api/v2/',
 };
 
