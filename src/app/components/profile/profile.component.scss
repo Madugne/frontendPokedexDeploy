@@ -3,11 +3,12 @@ body {
     min-height: 100vh;
   }
 .profilo {
-    padding-top: 7%;
+    padding-top: 15%;
 }
 
 .pokeball img,
 .trainers img {
+    margin-top: 5%;
     width: 50%;
     transition: transform 0.3s ease;
 }
@@ -17,24 +18,3 @@ body {
     transform: scale(1.2);
 }
 
-.row {
-    margin-top: 15%;
-}
-
-@media screen and (max-width: 991px){
-    .container {
-        margin-top: 20%;
-    }
-}
-
-@media screen and (max-width: 766px){
-    .container {
-        margin-top: 30%;
-    }
-}
-
-@media screen and (max-width: 462px){
-    .container {
-        margin-top: 35%;
-    }
-}

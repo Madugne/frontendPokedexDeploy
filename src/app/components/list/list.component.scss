@@ -20,6 +20,7 @@ body {
 
 .freccia {
     transition: transform 0.3s ease;
+    width: 35%;
 }
 
 .freccia:hover {
@@ -27,19 +28,19 @@ body {
 }
 
 @media screen and (max-width: 991px){
-    .contents {
-        margin-top: 20%;
+    .freccia {
+        width:50%;
     }
 }
 
 @media screen and (max-width: 766px){
-    .contents {
-        margin-top: 30%;
+    .freccia {
+        width: 80%;
     }
 }
 
 @media screen and (max-width: 462px){
-    .contents {
-        margin-top: 35%;
+    .freccia {
+        width: 90%;
     }
 }

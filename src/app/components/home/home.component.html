@@ -1,13 +1,18 @@
 <body>
     <div class="container text-center">
         <div class="row d-flex align-items-center justify-content-center">
-            <div class="background-overlay col-6">
-                <img class="mt-5" src="https://archives.bulbagarden.net/media/upload/4/4b/Pok%C3%A9dex_logo.png" alt="">
-                <div class="d-flex justify-content-around my-5">
-                    <button type="button" class="btn btn-danger btn-lg px-5" [routerLink]="['/login']">Log
-                        in</button>
-                    <button type="button" class="btn btn-secondary btn-lg px-5"
-                        [routerLink]="['/register']">Register</button>
+            <div class="card text-white py-5">
+                <div class="cardImg">
+                    <img src="https://archives.bulbagarden.net/media/upload/4/4b/Pok%C3%A9dex_logo.png" class="card-img"
+                        alt="Pokédex logo">
+                </div>
+
+                <div class="card-body py-5 px-3">
+                    <h5 class="card-title">Explore the world of Pokémon with the Pokédex!</h5>
+                    <div class="pt-5">
+                        <a href="/login" class="btn btn-danger btn-lg px-5 me-5">Log in</a>
+                        <a href="/register" class="btn btn-secondary btn-lg px-5 ms-5">Register</a>
+                    </div>
                 </div>
             </div>
         </div>
